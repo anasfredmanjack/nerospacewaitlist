@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const currentYear = new Date().getFullYear();
 
-const menuItems = ["Whitepaper", "Join Community", "About"];
+const menuItems = ["Whitepaper", "x.com/nerospacehq", "About"];
 
 export default function Footer() {
   return (

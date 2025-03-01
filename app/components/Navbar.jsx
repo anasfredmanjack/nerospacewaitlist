@@ -33,7 +33,7 @@ export default function NavBar() {
     {
       id: 3,
       title: 'Community',
-      link: '/',
+      link: 'https://x.com/nerospacehq',
     },
   ];
 
