@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const currentYear = new Date().getFullYear();
 
-const menuItems = ["Products", "Black Friday", "About"];
+const menuItems = ["Whitepaper", "Join Community", "About"];
 
 export default function Footer() {
   return (
@@ -57,11 +57,9 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="text-center text-sm text-gray-400">
           <p>
-            © {currentYear} Ecstasystores. All rights reserved.
+            © {currentYear} Nerospace. All rights reserved.
           </p>
-          <p className="mt-2">
-            Made with ❤️ by <a href="https://lovense.com" className="hover:text-gray-200">Lovense Team</a>
-          </p>
+        
         </div>
       </div>
     </footer>

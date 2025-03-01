@@ -23,17 +23,17 @@ export default function NavBar() {
     {
       id: 1,
       title: 'Whitepaper',
-      link: '/store',
+      link: '/',
     },
     {
       id: 2,
       title: 'Roadmap',
-      link: '/store',
+      link: '/',
     },
     {
       id: 3,
       title: 'Community',
-      link: '/about',
+      link: '/',
     },
   ];
 

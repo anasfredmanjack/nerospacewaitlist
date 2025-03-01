@@ -8,7 +8,7 @@ const Section1 = () => {
     <div>
       {/* Full-screen background */}
       <div 
-        className="bg-cover bg-center  relative h-[750px] mt-0 w-full " 
+        className="bg-cover bg-center  relative h-full mt-0 w-full " 
         style={{ backgroundImage: "url('/section1bg.jpg')" }}
       >
         {/*two grids for why choose nerospace*/}
@@ -36,9 +36,9 @@ const Section1 = () => {
             <h1 className='font-semibold text-black lg:text-6xl text-xl'>The Future of Web3 Freelancing </h1>
           
           </div>
-          <div className='flex relative justify-center items-center'>
+         
           <Waitlistform/>
-          </div>
+        
            {/*center text ends here*/}
       </div>
     </div>
