@@ -65,7 +65,7 @@ export default function NavBar() {
     
 
         <NavbarItem>
-          <Button as={Link} color="primary" href="/store" className="text-white " variant="flat">
+          <Button as={Link} color="primary" href="#waitlistformidd" className="text-white " variant="flat">
             Join Waitlist
           </Button>
         </NavbarItem>

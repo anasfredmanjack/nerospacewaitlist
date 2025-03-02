@@ -110,7 +110,7 @@ export default function App() {
       </Modal>
 
       {/* Form Section */}
-      <div className="flex h-full w-full justify-center items-center p-6">
+      <div className="flex h-full w-full justify-center items-center p-6" id="waitlistformidd">
         <div className="bg-white w-fit p-10 rounded-lg shadow-lg flex flex-col items-center">
           <div className='bg-[#A87DD6] text-white p-4 rounded-lg text-center mb-4 max-w-sm'>
             <p>Join the waitlist and be among the first to experience the future of Web3 freelancing with Nerospace.</p>

@@ -9,14 +9,14 @@ const Header = () => {
       {/* Full-screen background header */}
       <div className="bg-cover bg-center md:h-[660px] h-[900px] w-full relative  inset-0" style={{ backgroundImage: "url('/header.jpg')" }}>
         {/* Content grid*/}
-        <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 lg:mt-[0%]  md:mt-[0%] mt-[0%] lg:ml-10  text-white justify-center items-center">
+        <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 lg:mt-[0%]  md:mt-[0%] mt-[0%] lg:ml-[5%]  text-white justify-center items-center">
           {/* grid 1*/}
           <div className='m-5 lg:mt-[-120%]  mt-[0%] md:mt-[-160%]'>
           <h1 className=" lg:text-6xl text-5xl font-bold">Decentralised <br></br>Freelancing<br></br> Revolution</h1>
           <p className='font-bold'>Revolutionizing the Future of Freelancing with Blockchain.</p>
           <div className='grid grid-cols-2 relative mt-3'>
             <div>
-            <Button as={Link} color="primary" href="/store" className="text-white " variant="flat">
+            <Button as={Link} color="primary" href="#waitlistformidd" className="text-white " variant="flat">
             Join Waitlist
           </Button>
             </div>

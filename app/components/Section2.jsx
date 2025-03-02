@@ -137,8 +137,18 @@ const Section2 = () => {
           {/*grid 3 ends here*/}
               {/*grid 3a*/}
           <div className='m-3 '>
+            
             <Card className='border-[#542585] border-2 bg-background/60 dark:bg-default-100/50 h-[370px] w-[340px]'>
               <CardBody className='justify-end'>
+              <div className="flex justify-center">
+              <Image
+                src='/privacysecc.png'
+                alt="Logo"
+                width={160}
+                height={160}
+                className="hover:scale-110 w-fit h-fit mb-5 transition-transform duration-300"
+              />
+             </div>
                 <small className='font-semibold mb-2'>Privacy & Security</small>
                 <small className='font-semibold mb-3 text-medium'>Work with Confidence</small>
                 <small className='text-small'>Protect your personal data and secure your transactions. Nerospace ensures your freelancing experience is safe and reliable.</small>
