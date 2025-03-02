@@ -7,11 +7,13 @@ const Header = () => {
   return (
     <>
       {/* Full-screen background header */}
-      <div className="bg-cover bg-center md:h-[660px] h-[900px] w-full relative  inset-0" style={{ backgroundImage: "url('/header.jpg')" }}>
+      <div className="bg-cover bg-center md:h-[660px] h-[1000px] lg:h-[700px]  w-full relative  inset-0" style={{ backgroundImage: "url('/header.jpg')" }}>
         {/* Content grid*/}
         <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 lg:mt-[0%]  md:mt-[0%] mt-[0%] lg:ml-[5%]  text-white justify-center items-center">
           {/* grid 1*/}
-          <div className='m-5 lg:mt-[-120%]  mt-[0%] md:mt-[-160%]'>
+
+          <div className='m-5 lg:mt-[-650px]  mt-[10%] md:mt-[-160%]'>
+
           <h1 className=" lg:text-6xl text-5xl font-bold">Decentralised <br></br>Freelancing<br></br> Revolution</h1>
           <p className='font-bold'>Revolutionizing the Future of Freelancing with Blockchain.</p>
           <div className='grid grid-cols-2 relative mt-3'>
@@ -30,8 +32,8 @@ const Header = () => {
           {/*grid 1 ends here*/}
 
         {/*grid 2 starts here*/}
-        <div className='m-5 p-6 lg:relative lg:left-[-20%]'>
-        <div className=''>
+        <div className='m-5 p-6 lg:relative lg:left-[-15%]'>
+        <div className='lg:mt-[30px]'>
      
             {/*custom div 1 starts here*/}
             <div className='bg-[#A87DD6] relative bg-opacity-80 opacity-90 mt-[-20px] ml-[-30px] p-3 rounded-lg shadow-lg max-w-sm mx-auto '>
@@ -144,7 +146,7 @@ const Header = () => {
 {/*3d image safe starts here*/}
 <div className='relative z-0'>
   <Image
-    className='relative top-[-250px] lg:top-[-300px] lg:left-[280px] md:left-[100px]'
+    className='relative top-[-250px] lg:top-[-300px] lg:left-[280px] md:left-[100px] '
     src='/3dsafe.png'
     alt="3D Safe"
     layout="intrinsic"
